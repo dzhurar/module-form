@@ -1,8 +1,4 @@
-// export function saveData(event){
-//     event.preventDefault();
 
-//     alert('kill');
-// };
 export const saveData = (event) => {
     event.preventDefault();
 

@@ -124,11 +124,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.saveData = void 0;
-// export function saveData(event){
-//     event.preventDefault();
-
-//     alert('kill');
-// };
 var saveData = exports.saveData = function saveData(event) {
   event.preventDefault();
   dataBase.name = name.value;
@@ -149,14 +144,7 @@ var dataBase = {
 "use strict";
 
 var _formSend = require("./js-modules/form-send");
-// import { saveData } from "./js-modules/form-send";
-// const form = document.getElementById('form');
-// form.addEventListener('submit', saveData(event))
-
 var form = document.getElementById('form');
-// const name = document.getElementById('nameInp');
-// const email = document.getElementById('emailInp');
-// const comment = document.getElementById('commentInp');
 form.addEventListener('submit', _formSend.saveData);
 },{"./js-modules/form-send":"src/js-modules/form-send.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
