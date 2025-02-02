@@ -1,0 +1,1 @@
+{"version":3,"sources":["src/index.js"],"names":["alert"],"mappings":";AAAAA,MAAM","file":"src.87953e07.js","sourceRoot":"..","sourcesContent":["alert('Hello parcel');"]}

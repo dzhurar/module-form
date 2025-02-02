@@ -1,0 +1,38 @@
+body{
+    background-color: bisque;   
+}
+#form{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+input{
+    width: 600px;
+    padding: 5px;
+}
+#commentInp{
+    display: flex;
+    flex-direction: column ;
+    min-height: 200px;
+    min-width: 600px;
+    max-height: 200px;
+    max-width: 600px;
+    padding: 5px;
+}
+#sendBtn{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #a6b1b1;
+    transition-property: background-color;
+    transition-duration: 350ms;
+}
+#sendBtn:hover{
+    background-color: #e7f3f3;
+}
+
+/*# sourceMappingURL=/style.8acb7da0.css.map */
