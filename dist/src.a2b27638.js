@@ -143,10 +143,10 @@ var dataBase = {
 },{}],"src/index.js":[function(require,module,exports) {
 "use strict";
 
-var _formSend = require("./js-modules/form-send");
+var _formSend = require("./js-modules/form-send.js");
 var form = document.getElementById('form');
 form.addEventListener('submit', _formSend.saveData);
-},{"./js-modules/form-send":"src/js-modules/form-send.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./js-modules/form-send.js":"src/js-modules/form-send.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
