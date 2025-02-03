@@ -131,7 +131,11 @@ var saveData = exports.saveData = function saveData(event) {
   dataBase.comment = comment.value;
   form.reset();
   console.log(dataBase.name, dataBase.email, dataBase.comment);
+  form.style.display = 'none';
+  thanks.style.display = 'block';
 };
+var thanks = document.getElementById('thanks');
+var form = document.getElementById('form');
 var name = document.getElementById('nameInp');
 var email = document.getElementById('emailInp');
 var comment = document.getElementById('commentInp');
@@ -146,6 +150,33 @@ var dataBase = {
 var _formSend = require("./js-modules/form-send.js");
 var form = document.getElementById('form');
 form.addEventListener('submit', _formSend.saveData);
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const source = document.getElementById('menuBlock').innerHTML.trim();
+//     const template = Handlebars.compile(source);
+
+//     const date = {
+//         title: 'Menu',
+//         items: ['Home', 'About', 'Projects', 'Contacts'],
+//     };
+
+//     document.body.innerHTML += template(date);
+// })
+
+// import {countries} from "./js-modules/countries.js";
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     const templateSource = document.getElementById('countryTemplate').innerHTML.trim();
+//     const template = Handlebars.compile(templateSource);
+
+//     const countriesContainer = document.getElementById('countriesContainer');
+//     countriesContainer.innerHTML = '';
+
+//     countries.forEach(country => {
+//         const html = template(country);
+//         countriesContainer.innerHTML += html;
+//     })
+// })
 },{"./js-modules/form-send.js":"src/js-modules/form-send.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -171,7 +202,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59418" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56824" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

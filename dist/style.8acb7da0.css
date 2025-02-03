@@ -34,5 +34,12 @@ input{
 #sendBtn:hover{
     background-color: #e7f3f3;
 }
+#thanks{
+    display: none;
+    background-color: rgb(47, 255, 123);
+    padding: 10px 15px;
+    width: 330px;
+    margin: 0 auto;
+}
 
 /*# sourceMappingURL=/style.8acb7da0.css.map */
